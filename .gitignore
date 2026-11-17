@@ -1,0 +1,33 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Flask session and temporary data
+session_data/
+flask_session/
+
+# SQLite databases
+*.db
+*.sqlite3
+*.sqlite
+
+# Logs
+*.log
